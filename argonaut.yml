@@ -3,6 +3,8 @@ colors:
   primary:
     background: '#292C3E'
     foreground: '#EBEBEB'
+    dim_foreground: '#828482'
+    bright_foreground: '#eaeaea'
 
   # Cursor colors
   cursor:
