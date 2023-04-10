@@ -53,6 +53,7 @@ shell:
 
 mouse:
   hide_when_typing: true
-  key_bindings:
+
+key_bindings:
   - { key: Return, mods: Super|Shift, action: SpawnNewInstance }
   
