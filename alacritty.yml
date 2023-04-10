@@ -38,6 +38,10 @@ font:
 
   background: None
 
+selection:
+  semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
+  save_to_clipboard: true
+
 cursor:
   style:
      shape: Block
@@ -47,13 +51,21 @@ cursor:
   blink_timeout: 5
   unfocused_hollow: true
 
-
 shell:
   program: /usr/bin/zsh
 
 mouse:
   hide_when_typing: true
 
+live_config_reload: true
+
+mouse_bindings:
+  - { mouse: Left, mods: Control|Shift, action: Paste }
+
 key_bindings:
-  - { key: Return, mods: Super|Shift, action: SpawnNewInstance }
+  - { key: N, mods: Control|Shift, action: SpawnNewInstance }
+  - { key: Q, mods: Control|Shift, action: Quit }
+  - { key: C, mods: Control|Shift, action: Copy }
+  - { key: V, mods: Control|Shift, action: Paste }
+
   
