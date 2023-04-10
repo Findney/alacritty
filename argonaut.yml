@@ -1,17 +1,14 @@
 colors:
-  # Default colors
   primary:
     background: '#292C3E'
     foreground: '#EBEBEB'
-    dim_foreground: '#828482'
-    bright_foreground: '#eaeaea'
+    dim_foreground: '#89ADE2'
+    bright_foreground: '#6F50AE'
 
-  # Cursor colors
   cursor:
    text: '#FF261E'
    cursor: '#FF261E'
 
-  # Normal colors
   normal:
     black:   '#0d0d0d'
     red:     '#FF301B'
@@ -22,7 +19,6 @@ colors:
     cyan:    '#21DEEF'
     white:   '#EBEBEB'
 
-  # Bright colors
   bright:
     black:   '#6D7070'
     red:     '#FF4352'
